@@ -63,8 +63,10 @@ Google Fonts — Orbitron, Space Mono
 
 SVG Backgrounds — For twinkling starfield
 
-NASA Data — Planet info & images
+Nasa Data - Planet info & images
+
 ---
-Made with 💙 and curiosity for the cosmos
-🚀 Designed & Developed by Keziah Mariam Raison
----
+
+Made with 💙 & curiosity for the cosmos....
+🚀Designed & developed by: Keziah Mariam Raison
+
