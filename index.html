@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Space Explorer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <!-- Cosmic Background -->
+  <div class="cosmos">
+    <div class="stars"></div>
+    <div class="stars"></div>
+    <div class="stars"></div>
+    <div class="shooting-star"></div>
+    <div class="shooting-star"></div>
+    <div class="shooting-star"></div>
+  </div>
+
+  <!-- Header -->
+  <header>
+    <h1 class="floating">🌌 Space Explorer</h1>
+    <p>Journey through our cosmic neighborhood and discover the wonders of the Solar System</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="#intro">Mission Control</a></li>
+      <li><a href="#planets">Planetary Database</a></li>
+      <li><a href="#satellites">Lunar Outposts</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="container">
+    <!-- Intro Section -->
+    <section id="intro">
+      <h2>Mission Briefing</h2>
+      <p>Welcome aboard the Space Explorer, your interactive portal to the Solar System. Prepare for an immersive journey through our cosmic neighborhood, where you'll encounter breathtaking planetary vistas, mysterious moons, and celestial phenomena.</p>
+      <p>Our mission is to provide you with the most up-to-date astronomical data presented in an engaging, visually stunning format. Scroll down to begin your exploration.</p>
+      <div style="text-align: center; margin-top: 2rem;">
+        <div style="display: inline-block; animation: pulse 2s infinite alternate;">
+          ▼
+        </div>
+      </div>
+    </section>
+
+    <!-- Planets Section -->
+    <section id="planets">
+      <h2>Planetary Database</h2>
+      <p>Explore the eight major planets of our Solar System. Click on any planet to learn more about its unique characteristics.</p>
+      
+      <div class="planet-grid">
+        <!-- Mercury -->
+        <div class="planet-card" id="mercury">
+          <div class="planet-image">
+            <img src="mercury.png" alt="Mercury">
+          </div>
+          <div class="planet-info">
+            <h3>Mercury</h3>
+            <p><strong>Diameter:</strong> 4,880 km</p>
+            <p><strong>Orbit Period:</strong> 88 Earth days</p>
+            <p><strong>Surface Temp:</strong> -173°C to 427°C</p>
+            <p>The smallest planet with extreme temperature variations and a heavily cratered surface.</p>
+          </div>
+        </div>
+
+        <!-- Venus -->
+        <div class="planet-card" id="venus">
+          <div class="planet-image">
+            <img src="venus.png" alt="Venus">
+          </div>
+          <div class="planet-info">
+            <h3>Venus</h3>
+            <p><strong>Diameter:</strong> 12,104 km</p>
+            <p><strong>Orbit Period:</strong> 225 Earth days</p>
+            <p><strong>Surface Temp:</strong> 462°C</p>
+            <p>Similar in size to Earth but with a toxic atmosphere of carbon dioxide and sulfuric acid clouds.</p>
+          </div>
+        </div>
+
+        <!-- Earth -->
+        <div class="planet-card" id="earth">
+          <div class="planet-image">
+            <img src="earth.png" alt="Earth">
+          </div>
+          <div class="planet-info">
+            <h3>Earth</h3>
+            <p><strong>Diameter:</strong> 12,742 km</p>
+            <p><strong>Orbit Period:</strong> 365.25 days</p>
+            <p><strong>Surface Temp:</strong> -88°C to 58°C</p>
+            <p>The only known planet with liquid water on the surface and abundant life.</p>
+          </div>
+        </div>
+
+        <!-- Mars -->
+        <div class="planet-card" id="mars">
+          <div class="planet-image">
+            <img src="mars.png" alt="Mars">
+          </div>
+          <div class="planet-info">
+            <h3>Mars</h3>
+            <p><strong>Diameter:</strong> 6,779 km</p>
+            <p><strong>Orbit Period:</strong> 687 Earth days</p>
+            <p><strong>Surface Temp:</strong> -153°C to 20°C</p>
+            <p>The Red Planet with the largest volcano and canyon in the Solar System.</p>
+          </div>
+        </div>
+
+        <!-- Jupiter -->
+        <div class="planet-card" id="jupiter">
+          <div class="planet-image">
+            <img src="jupiter.png" alt="Jupiter">
+          </div>
+          <div class="planet-info">
+            <h3>Jupiter</h3>
+            <p><strong>Diameter:</strong> 139,820 km</p>
+            <p><strong>Orbit Period:</strong> 12 Earth years</p>
+            <p><strong>Great Red Spot:</strong> 400-year storm</p>
+            <p>The largest planet with a strong magnetic field and at least 79 moons.</p>
+          </div>
+        </div>
+
+        <!-- Saturn -->
+        <div class="planet-card" id="saturn">
+          <div class="planet-image">
+            <img src="saturn.png" alt="Saturn">
+          </div>
+          <div class="planet-info">
+            <h3>Saturn</h3>
+            <p><strong>Diameter:</strong> 116,460 km</p>
+            <p><strong>Orbit Period:</strong> 29 Earth years</p>
+            <p><strong>Rings:</strong> 7 main rings</p>
+            <p>Famous for its spectacular ring system made of ice and rock particles.</p>
+          </div>
+        </div>
+
+        <!-- Uranus -->
+        <div class="planet-card" id="uranus">
+          <div class="planet-image">
+            <img src="uranus.png" alt="Uranus">
+          </div>
+          <div class="planet-info">
+            <h3>Uranus</h3>
+            <p><strong>Diameter:</strong> 50,724 km</p>
+            <p><strong>Orbit Period:</strong> 84 Earth years</p>
+            <p><strong>Axial Tilt:</strong> 98 degrees</p>
+            <p>An ice giant that rotates on its side with 13 faint rings and 27 moons.</p>
+          </div>
+        </div>
+
+        <!-- Neptune -->
+        <div class="planet-card" id="neptune">
+          <div class="planet-image">
+            <img src="neptune.png" alt="Neptune">
+          </div>
+          <div class="planet-info">
+            <h3>Neptune</h3>
+            <p><strong>Diameter:</strong> 49,244 km</p>
+            <p><strong>Orbit Period:</strong> 165 Earth years</p>
+            <p><strong>Wind Speeds:</strong> 2,100 km/h</p>
+            <p>The windiest planet with the strongest winds in the Solar System.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Satellites Section -->
+    <section id="satellites">
+      <h2>Lunar Outposts</h2>
+      <p>Explore some of the most fascinating natural satellites orbiting planets in our Solar System.</p>
+      
+      <div class="satellite-container">
+        <div class="satellite floating">
+          <span>Moon<br>(Earth)</span>
+        </div>
+        <div class="satellite floating" style="animation-delay: 0.5s;">
+          <span>Phobos & Deimos<br>(Mars)</span>
+        </div>
+        <div class="satellite floating" style="animation-delay: 1s;">
+          <span>Europa<br>(Jupiter)</span>
+        </div>
+        <div class="satellite floating" style="animation-delay: 1.5s;">
+          <span>Titan<br>(Saturn)</span>
+        </div>
+        <div class="satellite floating" style="animation-delay: 2s;">
+          <span>Triton<br>(Neptune)</span>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Space Explorer Mission | All astronomical data sourced from NASA</p>
+    <p>Created with the wonder of space exploration in mind</p>
+  </footer>
+
+  <!-- Scroll to Top Button -->
+  <div class="scroll-indicator" onclick="window.scrollTo({top: 0, behavior: 'smooth'});"></div>
+</body>
+</html>
